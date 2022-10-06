@@ -20,7 +20,7 @@ const logout = async () => {
             <button class="btn btn-sm btn-ghost">supabase-project</button>
         </div>
         <div class="flex-1 flex items-center justify-center">
-            <input type="text" placeholder="Search supabase-project..." class="input input-xs bg-base-300 text-base-content w-full" />
+            <input type="text" placeholder="Search supabase-project..." class="input input-xs bg-base-200 text-base-content w-full focus:bg-base-100" />
         </div>
         <div class="flex-1 flex items-center justify-end">
             <div class="dropdown dropdown-end">

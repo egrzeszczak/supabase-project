@@ -5,7 +5,7 @@
         </div>
         <div class="overflow-hidden">
             <NuxtPage 
-            class="bg-base-300 text-base-content min-h-screen block max-h-screen"
+            class="bg-base-200 text-base-content min-h-screen block max-h-screen"
             :class="{'overflow-y-auto': user}" />
         </div>
     </div>
