@@ -41,7 +41,7 @@ const props = defineProps(['breadcrumbs'])
                 <nuxt-link v-if="index != props.breadcrumbs.length - 1" :to="step.link">{{step.name}}</nuxt-link>
             </li>
         </ul>
+        <!-- INFO: Last item in 'breadcrumbs' array will be a h1 header displayed below the breadcrumbs (it will not be a breadcrumb) -->
+        <h1 class="text-2xl">{{props.breadcrumbs[props.breadcrumbs.length-1].name}}</h1>
     </div>
-    <!-- INFO: Last item in 'breadcrumbs' array will be a h1 header displayed below the breadcrumbs (it will not be a breadcrumb) -->
-    <h1 class="text-2xl">{{props.breadcrumbs[props.breadcrumbs.length-1].name}}</h1>
 </template>

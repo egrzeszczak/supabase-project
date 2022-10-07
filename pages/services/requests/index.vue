@@ -17,5 +17,7 @@ definePageMeta({
                 link: '/services/requests',
             },
         ]" />
+        <RequestMainToolbar />
+        <RequestMainTable />
     </section>
 </template>

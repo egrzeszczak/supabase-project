@@ -21,5 +21,6 @@ definePageMeta({
                 link: '/services/requests/create',
             },
         ]" />
+        <RequestCreateForm class="max-w-2xl"/>
     </section>
 </template>
