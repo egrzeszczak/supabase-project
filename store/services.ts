@@ -9,14 +9,4 @@ export const services = ref([
             alt: 'Envelope',
         },
     },
-    {
-        id: "spam",
-        name: "Report spam",
-        link: "/spam",
-        icon: {
-            type: 'local',
-            icon: 'spam.png',
-            alt: 'Envelope with warning',
-        },
-    },
 ])

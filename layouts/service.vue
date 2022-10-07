@@ -4,16 +4,16 @@
             <NavBar v-if="user" class="bg-base-100 text-base-content border-b" />
         </div>
         <div class="overflow-hidden">
-            <NuxtPage 
-            class="bg-base-100 text-base-content min-h-screen block max-h-screen"
-            :class="{'overflow-y-auto': user}" />
+            <div class="py-2 px-4 bg-base-100 text-base-content min-h-screen block max-h-screen"
+                :class="{'overflow-y-auto': user}">
+                <NuxtPage />
+            </div>
         </div>
     </div>
 </template>
 
 <script setup>
 const user = useSupabaseUser()
-
 useHead({
     meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1' }

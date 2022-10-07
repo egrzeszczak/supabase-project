@@ -1,14 +1,10 @@
 <script setup>
 import { services } from '~/store/services.ts'
-
-
-
-
 const view = ref('block')
 </script>
 
 <template>
-    <section id="services">
+    <section id="services" class="pb-10">
         <div class="flex flex-row items-center justify-between">
             <h1 class="text-lg my-2">Services</h1>
             <div class="btn-group">

@@ -10,9 +10,9 @@ onMounted(() => {
 </script>
 
 <template>
-    <main class="">
-        <div class="bg-base-100 max-w-6xl mx-auto h-72 m-6 px-12 py-1">
-            <Services />
+    <main>
+        <div class="bg-base-100 text-base-content max-w-6xl mx-auto">
+            <Services class="m-6 px-12 py-1"/>
         </div>        
     </main>
 </template>
