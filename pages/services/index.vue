@@ -7,16 +7,9 @@ import { services } from '~/store/services';
 //     })
 // })
 definePageMeta({
+    middleware: ['auth'],
     layout: "service",
 });
-const user = useSupabaseUser()
-onMounted(() => {
-    watchEffect(() => {
-        if (!user.value) {
-            navigateTo('/login')
-        }
-    })
-})
 </script>
     
 <template>
